@@ -4,11 +4,13 @@ UCF ID: 4525868
 COP 3402 Systems Software
 Spring 2023
 
+THIS FILES CONTAINS A COMPILER DESCRIPTION AND INSTRUCTIONS ON HOW TO USE IT.
+
 This program is an implemenetation of a top-down parser that includes procedures call parsing. This program reads in an input file from the terminal, and follows the syntactic rules given in the pseudocode and homeworkfile given. 
 
 This program outputs error messages depending on syntax.
 
-This file homework contains: A header file named dataTypes.h included in the hw4compiler.c, and 2 different inputs named: input1.txt and input2.txt. The inputs have procedure calls to test the compiler and code generation.
+This file homework contains: A header file named dataTypes.h included in the compiler.c, and 2 different inputs named: input1.txt and input2.txt. The inputs have procedure calls to test the compiler and code generation.
 
 If the input file does not have any errors, an elf.txt is generated and it contains instructions without mnemonics. Also, the terminal will display the source code, the instructions using mnemonics, and a message indicating that no errors were found.
 

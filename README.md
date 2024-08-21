@@ -1,5 +1,5 @@
 # Author: Carlos Daniel Arciniegas Murillas  
-**Spring 2023**
+**Systems Software. Spring 2023**
 
 ---
 
@@ -31,12 +31,12 @@ To compile and run the program, follow these steps:
 
    ```bash  
    gcc -g hw4compiler.c
-2. **Run the program**
+2. **Run the program**:
+
     Run the following command to run the program:
 
     ```bash:
     ./a.out input(#).txt
-
 The program exits safely if an error is found while parsing according to the grammar rules.
 
 Please verify that a new file elf.txt was created after running the program. If not, the compiler outputs to the terminal an error message indicating the error in the input file.
